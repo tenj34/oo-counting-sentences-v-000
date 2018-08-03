@@ -17,6 +17,6 @@ class String
   def count_sentences
     self.split(/[\.?!]/).count {|sentence| sentence != ""}
     # we split the the sentences up with specific symbols that we sentences
-    # count for every sentence that is in that splits
+    # count for every sentence that is in that split
   end
 end
